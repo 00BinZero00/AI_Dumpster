@@ -1,0 +1,100 @@
+1. `ls` - List directory contents.
+2. `cd` - Change the current directory.
+3. `pwd` - Print working directory.
+4. `mkdir` - Create a new directory.
+5. `rmdir` - Remove an empty directory.
+6. `rm` - Remove files or directories.
+7. `cp` - Copy files or directories.
+8. `mv` - Move or rename files or directories.
+9. `cat` - Concatenate and display files.
+10. `echo` - Display a line of text.
+11. `man` - Display the manual for a command.
+12. `touch` - Create an empty file or update the timestamp of a file.
+13. `chmod` - Change file permissions.
+14. `chown` - Change file owner and group.
+15. `ps` - Display currently running processes.
+16. `top` - Display running processes in real-time.
+17. `htop` - Interactive process viewer (requires installation).
+18. `kill` - Terminate a process by PID.
+19. `pkill` - Kill processes by name.
+20. `grep` - Search for text in files.
+21. `find` - Search for files in a directory hierarchy.
+22. `df` - Report file system disk space usage.
+23. `du` - Estimate file space usage.
+24. `tar` - Archive files.
+25. `zip` - Package and compress files.
+26. `unzip` - Extract compressed files.
+27. `gzip` - Compress files.
+28. `gunzip` - Decompress files.
+29. `scp` - Securely copy files between hosts.
+30. `sftp` - Secure file transfer program.
+31. `wget` - Download files from the web.
+32. `curl` - Transfer data to or from a server.
+33. `nano` - Simple text editor for command line.
+34. `vi` - Advanced text editor.
+35. `vim` - Improved version of `vi`.
+36. `history` - Show command history.
+37. `alias` - Create shortcuts for commands.
+38. `unalias` - Remove aliases.
+39. `sudo` - Execute a command as a superuser.
+40. `su` - Switch user.
+41. `whoami` - Display the current user.
+42. `hostname` - Show or set the system's hostname.
+43. `ifconfig` - Configure network interfaces (deprecated, use `ip`).
+44. `ip` - Show/manipulate routing, devices, policy routing, and tunnels.
+45. `ping` - Test network connectivity.
+46. `traceroute` - Trace the route packets take to a network host.
+47. `ssh` - Secure shell for remote access.
+48. `scp` - Secure copy files between hosts.
+49. `ftp` - File Transfer Protocol client.
+50. `exit` - Exit the terminal session.
+51. `clear` - Clear the terminal screen.
+52. `uname` - Show system information.
+53. `free` - Display memory usage.
+54. `uptime` - Show how long the system has been running.
+55. `who` - Show who is logged in.
+56. `last` - Show last logged in users.
+57. `shutdown` - Bring the system down.
+58. `reboot` - Reboot the system.
+59. `service` - Manage services.
+60. `systemctl` - Control the systemd system and service manager.
+61. `journalctl` - Query the systemd journal.
+62. `crontab` - Schedule tasks.
+63. `df` - Display disk space usage.
+64. `mount` - Mount a file system.
+65. `umount` - Unmount a file system.
+66. `chmod` - Change file access permissions.
+67. `chgrp` - Change group ownership of files.
+68. `ln` - Create symbolic links.
+69. `tar -xvf` - Extract files from a tarball.
+70. `tar -cvf` - Create a tarball.
+71. `rsync` - Synchronize files/directories between locations.
+72. `basename` - Strip directory and suffix from filenames.
+73. `dirname` - Strip the last component from the file name.
+74. `cut` - Remove sections from each line of files.
+75. `sort` - Sort lines of text files.
+76. `uniq` - Report or omit repeated lines.
+77. `wc` - Count lines, words, and characters in files.
+78. `df` - Report file system disk space usage.
+79. `du` - Estimate file space usage.
+80. `file` - Determine the file type.
+81. `stat` - Display file or file system status.
+82. `diff` - Compare files line by line.
+83. `patch` - Apply changes to files.
+84. `sed` - Stream editor for filtering and transforming text.
+85. `awk` - Pattern scanning and processing language.
+86. `tar` - Archive files (create and extract).
+87. `xargs` - Build and execute command lines from standard input.
+88. `tee` - Read from standard input and write to standard output and files.
+89. `locate` - Find files by name.
+90. `updatedb` - Update the database for `locate`.
+91. `basename` - Strip directory and suffix from filenames.
+92. `dirname` - Strip the last component from the file name.
+93. `chmod` - Change file access permissions.
+94. `chattr` - Change file attributes on a Linux file system.
+95. `setfacl` - Set file access control lists.
+96. `getfacl` - Get file access control lists.
+97. `mount` - Mount a filesystem.
+98. `umount` - Unmount a filesystem.
+99. `history` - Show command history.
+100. `ssh-keygen` - Generate SSH keys for secure access.

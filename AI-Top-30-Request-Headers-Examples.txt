@@ -1,0 +1,119 @@
+1. **Accept**
+   - **Purpose**: Specifies the media types that the client is willing to receive.
+   - **Example**: `Accept: text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8`
+
+2. **User-Agent**
+   - **Purpose**: Identifies the client software making the request.
+   - **Example**: `User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36`
+
+3. **Host**
+   - **Purpose**: Specifies the domain name and port number of the server.
+   - **Example**: `Host: www.example.com`
+
+4. **Authorization**
+   - **Purpose**: Contains credentials for authenticating the client.
+   - **Example**: `Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=` (base64-encoded username:password)
+
+5. **Content-Type**
+   - **Purpose**: Indicates the media type of the resource being sent to the server.
+   - **Example**: `Content-Type: application/json`
+
+6. **Content-Length**
+   - **Purpose**: Specifies the size of the request body in bytes.
+   - **Example**: `Content-Length: 348`
+
+7. **Accept-Language**
+   - **Purpose**: Indicates the preferred languages for the response.
+   - **Example**: `Accept-Language: en-US,en;q=0.5`
+
+8. **Cookie**
+   - **Purpose**: Sends stored cookies from the client to the server.
+   - **Example**: `Cookie: sessionId=abc123; theme=light`
+
+9. **Referer**
+   - **Purpose**: Indicates the URL of the webpage that linked to the resource being requested.
+   - **Example**: `Referer: https://www.google.com/`
+
+10. **If-None-Match**
+    - **Purpose**: Used for conditional requests based on the ETag value.
+    - **Example**: `If-None-Match: "abc123"`
+
+11. **Accept-Encoding**
+    - **Purpose**: Specifies the content encodings that the client supports.
+    - **Example**: `Accept-Encoding: gzip, deflate, br`
+
+12. **Connection**
+    - **Purpose**: Indicates whether the connection should be kept alive or closed.
+    - **Example**: `Connection: keep-alive`
+
+13. **Cache-Control**
+    - **Purpose**: Directives for caching mechanisms in requests and responses.
+    - **Example**: `Cache-Control: no-cache`
+
+14. **DNT (Do Not Track)**
+    - **Purpose**: Indicates the user's tracking preference.
+    - **Example**: `DNT: 1`
+
+15. **Upgrade-Insecure-Requests**
+    - **Purpose**: Indicates that the client prefers an encrypted response.
+    - **Example**: `Upgrade-Insecure-Requests: 1`
+
+16. **TE**
+    - **Purpose**: Indicates the transfer encodings that the client is willing to accept.
+    - **Example**: `TE: Trailers, deflate;q=0.5`
+
+17. **X-Requested-With**
+    - **Purpose**: Identifies Ajax requests, often set to "XMLHttpRequest".
+    - **Example**: `X-Requested-With: XMLHttpRequest`
+
+18. **If-Modified-Since**
+    - **Purpose**: Allows conditional requests based on the last modification date.
+    - **Example**: `If-Modified-Since: Wed, 21 Oct 2015 07:28:00 GMT`
+
+19. **Range**
+    - **Purpose**: Requests a specific range of bytes from the resource.
+    - **Example**: `Range: bytes=0-499`
+
+20. **Origin**
+    - **Purpose**: Indicates the origin of the request, used in CORS.
+    - **Example**: `Origin: https://www.example.com`
+
+21. **X-Forwarded-For**
+    - **Purpose**: Identifies the originating IP address of a client connecting through a proxy.
+    - **Example**: `X-Forwarded-For: 203.0.113.195`
+
+22. **X-Frame-Options**
+    - **Purpose**: Controls whether a browser should be allowed to render a page in a `<frame>`.
+    - **Example**: `X-Frame-Options: DENY`
+
+23. **Content-Encoding**
+    - **Purpose**: Indicates the encoding used on the data, such as gzip.
+    - **Example**: `Content-Encoding: gzip`
+
+24. **Content-Disposition**
+    - **Purpose**: Indicates if the content is expected to be displayed inline or as an attachment.
+    - **Example**: `Content-Disposition: attachment; filename="file.pdf"`
+
+25. **X-Content-Type-Options**
+    - **Purpose**: Prevents browsers from MIME-sniffing a response away from the declared content type.
+    - **Example**: `X-Content-Type-Options: nosniff`
+
+26. **Accept-Charset**
+    - **Purpose**: Specifies the character sets that the client can understand.
+    - **Example**: `Accept-Charset: utf-8, ISO-8859-1;q=0.5`
+
+27. **Expect**
+    - **Purpose**: Indicates that particular server behaviors are required by the client.
+    - **Example**: `Expect: 100-continue`
+
+28. **X-Pingback**
+    - **Purpose**: Specifies the URL where pingbacks should be sent (used in XML-RPC).
+    - **Example**: `X-Pingback: https://www.example.com/xmlrpc.php`
+
+29. **X-API-Key**
+    - **Purpose**: A custom header used for passing an API key for authentication.
+    - **Example**: `X-API-Key: ABC123XYZ`
+
+30. **X-Real-IP**
+    - **Purpose**: Used to pass the real IP address of a client connecting through a proxy.
+    - **Example**: `X-Real-IP: 192.0.2.1`

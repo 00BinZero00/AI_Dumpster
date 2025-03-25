@@ -1,0 +1,71 @@
+Here are the top 10 most commonly used HTTP response headers, along with detailed examples for each:
+
+1. **Content-Type**
+   - **Purpose**: Indicates the media type of the resource being sent to the client.
+   - **Example**:
+     ```
+     Content-Type: application/json
+     ```
+
+2. **Content-Length**
+   - **Purpose**: Specifies the size of the response body in bytes.
+   - **Example**:
+     ```
+     Content-Length: 348
+     ```
+
+3. **Cache-Control**
+   - **Purpose**: Directives for caching mechanisms in both requests and responses.
+   - **Example**:
+     ```
+     Cache-Control: no-cache, no-store, must-revalidate
+     ```
+
+4. **Expires**
+   - **Purpose**: Indicates when the response is considered stale.
+   - **Example**:
+     ```
+     Expires: Wed, 21 Oct 2025 07:28:00 GMT
+     ```
+
+5. **ETag**
+   - **Purpose**: Provides a unique identifier for a specific version of a resource, used for cache validation.
+   - **Example**:
+     ```
+     ETag: "abc123"
+     ```
+
+6. **Last-Modified**
+   - **Purpose**: Indicates the last time the resource was modified, allowing clients to make conditional requests.
+   - **Example**:
+     ```
+     Last-Modified: Wed, 21 Oct 2015 07:28:00 GMT
+     ```
+
+7. **Location**
+   - **Purpose**: Used in redirection responses to specify the URL to redirect the client to.
+   - **Example**:
+     ```
+     Location: https://www.example.com/new-url
+     ```
+
+8. **Server**
+   - **Purpose**: Provides information about the server software handling the request.
+   - **Example**:
+     ```
+     Server: Apache/2.4.41 (Ubuntu)
+     ```
+
+9. **Set-Cookie**
+   - **Purpose**: Used to send cookies from the server to the client, allowing session management and tracking.
+   - **Example**:
+     ```
+     Set-Cookie: sessionId=abc123; Path=/; HttpOnly; Secure
+     ```
+
+10. **Access-Control-Allow-Origin**
+    - **Purpose**: Used in CORS (Cross-Origin Resource Sharing) to specify which origins are allowed to access the resource.
+    - **Example**:
+      ```
+      Access-Control-Allow-Origin: https://www.example.com
+      ```

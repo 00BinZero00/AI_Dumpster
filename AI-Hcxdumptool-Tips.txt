@@ -1,0 +1,81 @@
+
+### 1. Basic Packet Capture
+To capture packets from a specific wireless interface, you can use the following command:
+
+```bash
+sudo hcxdumptool -i wlan0 -o capture.pcapng
+```
+- `-i wlan0` specifies the wireless interface you want to capture packets from.
+- `-o capture.pcapng` specifies the output file for the captured packets.
+
+### 2. Enable Monitor Mode
+Before using `hcxdumptool`, ensure your wireless interface is in monitor mode. You can enable monitor mode using `airmon-ng` or `iw`:
+
+```bash
+sudo ip link set wlan0 down
+sudo iw dev wlan0 set type monitor
+sudo ip link set wlan0 up
+```
+
+### 3. Capture Handshakes
+To capture WPA/WPA2 handshakes, you can use the command with additional options:
+
+```bash
+sudo hcxdumptool -i wlan0 -o capture.pcapng --enable_status=1
+```
+- `--enable_status=1` provides status updates on packet capture, which is helpful for monitoring progress.
+
+### 4. Filter by SSID
+If you're interested in capturing packets from a specific SSID, you can use the `--filter` option:
+
+```bash
+sudo hcxdumptool -i wlan0 -o capture.pcapng --filter=MyNetworkSSID
+```
+- Replace `MyNetworkSSID` with the actual SSID of the network you want to capture from.
+
+### 5. Use with hcxpcapngtool
+After capturing packets, you can convert the `.pcapng` file to a format suitable for password cracking:
+
+```bash
+hcxpcapngtool -o output.16800 capture.pcapng
+```
+- `-o output.16800` specifies the output file for the converted format.
+
+### 6. Use with Hashcat
+Once you have the output file, you can use Hashcat to crack the captured handshakes:
+
+```bash
+hashcat -m 22000 output.16800 wordlist.txt
+```
+- Replace `wordlist.txt` with the path to your password list.
+
+### 7. Monitor Status
+You can monitor the status of the capture process in real-time:
+
+```bash
+sudo hcxdumptool -i wlan0 -o capture.pcapng --enable_status=1 --enable_status=1 --enable_hc2
+```
+- The `--enable_hc2` option will show additional status information.
+
+### 8. Capture Specific Packet Types
+You can specify the types of packets you want to capture. For example, if you only want to capture EAPOL packets:
+
+```bash
+sudo hcxdumptool -i wlan0 -o capture.pcapng --enable_eapol=1
+```
+
+### 9. Save to Multiple Files
+If you want to save captured packets to multiple files based on size, you can specify a maximum file size:
+
+```bash
+sudo hcxdumptool -i wlan0 -o capture.pcapng --max_file_size=1000000
+```
+- This will create new files once the specified size (in bytes) is reached.
+
+### 10. Use With a Specific Channel
+If you want to capture packets on a specific channel, you can set the channel using the `iw` command before running `hcxdumptool`:
+
+```bash
+sudo iw dev wlan0 set channel 6
+```
+- Then run the `hcxdumptool` command as usual.

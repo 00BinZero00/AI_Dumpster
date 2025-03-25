@@ -1,0 +1,199 @@
+1. **Google Public DNS**
+   - **Primary DNS**: `8.8.8.8`
+   - **Secondary DNS**: `8.8.4.4`
+
+2. **Cloudflare DNS**
+   - **Primary DNS**: `1.1.1.1`
+   - **Secondary DNS**: `1.0.0.1`
+
+3. **OpenDNS (Cisco)**
+   - **Primary DNS**: `208.67.222.222`
+   - **Secondary DNS**: `208.67.220.220`
+
+4. **Quad9**
+   - **Primary DNS**: `9.9.9.9`
+   - **Secondary DNS**: `149.112.112.112`
+
+5. **Comodo Secure DNS**
+   - **Primary DNS**: `8.26.56.26`
+   - **Secondary DNS**: `8.20.247.20`
+
+6. **DNS.Watch**
+   - **Primary DNS**: `84.200.69.80`
+   - **Secondary DNS**: `84.200.70.40`
+
+7. **Yandex DNS**
+   - **Primary DNS**: `77.88.8.8`
+   - **Secondary DNS**: `77.88.8.1`
+
+8. **CleanBrowsing (Family Filter)**
+   - **Primary DNS**: `185.228.168.168`
+   - **Secondary DNS**: `185.228.168.10`
+
+9. **AdGuard DNS**
+   - **Primary DNS**: `94.140.14.14`
+   - **Secondary DNS**: `94.140.15.15`
+
+10. **Neustar UltraDNS**
+    - **Primary DNS**: `156.154.70.1`
+    - **Secondary DNS**: `156.154.71.1`
+
+11. **OpenNIC**
+    - **Primary DNS**: `185.121.177.177`
+    - **Secondary DNS**: `169.239.202.202`
+
+12. **FreeDNS**
+    - **Primary DNS**: `37.235.1.174`
+    - **Secondary DNS**: `37.235.1.177`
+
+13. **Freenom World**
+    - **Primary DNS**: `80.80.80.80`
+    - **Secondary DNS**: `80.80.81.81`
+
+14. **Smart DNS Proxy**
+    - **Primary DNS**: `192.64.119.4`
+    - **Secondary DNS**: `192.64.119.2`
+
+15. **IBM Quad9**
+    - **Primary DNS**: `9.9.9.9`
+    - **Secondary DNS**: `9.9.9.10`
+
+16. **Norton ConnectSafe**
+    - **Primary DNS**: `199.85.126.10`
+    - **Secondary DNS**: `199.85.126.20`
+
+17. **OpenDNS FamilyShield**
+    - **Primary DNS**: `208.67.222.123`
+    - **Secondary DNS**: `208.67.220.123`
+
+18. **Verisign Public DNS**
+    - **Primary DNS**: `64.6.64.6`
+    - **Secondary DNS**: `64.6.65.6`
+
+19. **DNSCrypt**
+    - **Primary DNS**: `2a02:cb40::1`
+    - **Secondary DNS**: `2a02:cb40::2`
+
+20. **Censorship-Resistant DNS**
+    - **Primary DNS**: `185.222.222.222`
+    - **Secondary DNS**: `185.222.222.222`
+
+21. **Mullvad DNS**
+    - **Primary DNS**: `10.8.0.1`
+    - **Secondary DNS**: `10.8.0.2`
+
+22. **Hurricane Electric DNS**
+    - **Primary DNS**: `74.82.42.42`
+    - **Secondary DNS**: `2001:470:20::2`
+
+23. **Plausible DNS**
+    - **Primary DNS**: `104.16.54.3`
+    - **Secondary DNS**: `104.16.54.4`
+
+24. **Securly DNS**
+    - **Primary DNS**: `185.228.168.9`
+    - **Secondary DNS**: `185.228.169.9`
+
+25. **DigitalOcean DNS**
+    - **Primary DNS**: `198.41.0.4`
+    - **Secondary DNS**: `198.41.0.5`
+
+26. **Norton DNS**
+    - **Primary DNS**: `199.85.126.10`
+    - **Secondary DNS**: `199.85.126.20`
+
+27. **Afilias DNS**
+    - **Primary DNS**: `199.245.0.1`
+    - **Secondary DNS**: `199.245.0.2`
+
+28. **SafeDNS**
+    - **Primary DNS**: `195.46.39.39`
+    - **Secondary DNS**: `195.46.39.40`
+
+29. **CLOUDFLARE DNS (DNSSEC)**
+    - **Primary DNS**: `1.1.1.1`
+    - **Secondary DNS**: `1.0.0.1`
+
+30. **Tenta DNS**
+    - **Primary DNS**: `45.32.134.98`
+    - **Secondary DNS**: `45.32.134.99`
+
+31. **Hurricane Electric**
+    - **Primary DNS**: `74.82.42.42`
+    - **Secondary DNS**: `2001:470:20::2`
+
+32. **NextDNS**
+    - **Primary DNS**: `45.90.28.0`
+    - **Secondary DNS**: `45.90.30.0`
+
+33. **UncensoredDNS**
+    - **Primary DNS**: `91.239.100.100`
+    - **Secondary DNS**: `89.233.43.71`
+
+34. **OpenDNS Home**
+    - **Primary DNS**: `208.67.222.222`
+    - **Secondary DNS**: `208.67.220.220`
+
+35. **Dyn DNS**
+    - **Primary DNS**: `216.146.35.35`
+    - **Secondary DNS**: `216.146.36.36`
+
+36. **Safe DNS**
+    - **Primary DNS**: `195.46.39.39`
+    - **Secondary DNS**: `195.46.39.40`
+
+37. **GreenTeamDNS**
+    - **Primary DNS**: `185.228.168.168`
+    - **Secondary DNS**: `185.228.169.168`
+
+38. **OpenDNS Home VIP**
+    - **Primary DNS**: `208.67.222.222`
+    - **Secondary DNS**: `208.67.220.220`
+
+39. **DNSFilter**
+    - **Primary DNS**: `208.67.222.222`
+    - **Secondary DNS**: `208.67.220.220`
+
+40. **Centurylink DNS**
+    - **Primary DNS**: `205.171.3.67`
+    - **Secondary DNS**: `205.171.2.65`
+
+41. **Windsor DNS**
+    - **Primary DNS**: `192.34.58.1`
+    - **Secondary DNS**: `192.34.58.2`
+
+42. **Torguard DNS**
+    - **Primary DNS**: `89.233.43.71`
+    - **Secondary DNS**: `91.239.100.100`
+
+43. **Comcast DNS**
+    - **Primary DNS**: `75.75.75.75`
+    - **Secondary DNS**: `75.75.76.76`
+
+44. **Sonic DNS**
+    - **Primary DNS**: `198.181.196.10`
+    - **Secondary DNS**: `198.181.196.11`
+
+45. **Neustar UltraDNS**
+    - **Primary DNS**: `156.154.70.1`
+    - **Secondary DNS**: `156.154.71.1`
+
+46. **Verisign Public DNS**
+    - **Primary DNS**: `64.6.64.6`
+    - **Secondary DNS**: `64.6.65.6`
+
+47. **Akamai DNS**
+    - **Primary DNS**: `23.211.160.1`
+    - **Secondary DNS**: `23.211.160.2`
+
+48. **Cox DNS**
+    - **Primary DNS**: `68.105.28.10`
+    - **Secondary DNS**: `68.105.29.10`
+
+49. **Bezeq DNS**
+    - **Primary DNS**: `212.199.0.1`
+    - **Secondary DNS**: `212.199.0.2`
+
+50. **Cloudflare Family DNS (Malware Blocking)**
+    - **Primary DNS**: `1.1.1.2`
+    - **Secondary DNS**: `1.0.0.2`

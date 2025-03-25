@@ -1,0 +1,50 @@
+1. **Accept**: Specifies the media types that the client is willing to receive from the server.
+2. **User-Agent**: Identifies the client software making the request, including browser type and version.
+3. **Host**: Specifies the domain name of the server and the TCP port number.
+4. **Authorization**: Contains credentials for authenticating the client with the server.
+5. **Content-Type**: Indicates the media type of the resource being sent to the server.
+6. **Content-Length**: Specifies the size of the request body in bytes.
+7. **Accept-Language**: Indicates the preferred languages for the response content.
+8. **Cookie**: Sends stored cookies from the client to the server.
+9. **Referer**: Indicates the URL of the webpage that linked to the resource being requested.
+10. **If-None-Match**: Used for conditional requests based on the ETag value.
+11. **Accept-Encoding**: Specifies the content encodings (like gzip) that the client supports.
+12. **Connection**: Indicates whether the connection should be kept alive or closed.
+13. **Pragma**: Used for caching directives, often included for backward compatibility with HTTP/1.0.
+14. **Cache-Control**: Directives for caching mechanisms in both requests and responses.
+15. **DNT (Do Not Track)**: Indicates the user's tracking preference.
+16. **Upgrade-Insecure-Requests**: Indicates that the client prefers an encrypted and authenticated response.
+17. **TE**: Indicates the transfer encodings that the client is willing to accept.
+18. **X-Requested-With**: Used to identify Ajax requests, often set to "XMLHttpRequest".
+19. **If-Modified-Since**: Allows conditional requests based on the last modification date.
+20. **Range**: Requests a specific range of bytes from the resource.
+21. **Origin**: Indicates the origin of the request, used in CORS (Cross-Origin Resource Sharing).
+22. **X-Forwarded-For**: Identifies the originating IP address of a client connecting through an HTTP proxy.
+23. **X-Forwarded-Proto**: Indicates the protocol used (HTTP or HTTPS) in the original request.
+24. **X-Frame-Options**: Used to control whether a browser should be allowed to render a page in a `<frame>`.
+25. **Content-Encoding**: Indicates the encoding used on the data, such as gzip.
+26. **Content-Disposition**: Indicates if the content is expected to be displayed inline or as an attachment.
+27. **X-Content-Type-Options**: Prevents browsers from MIME-sniffing a response away from the declared content type.
+28. **Accept-Charset**: Specifies the character sets that the client can understand.
+29. **Expect**: Indicates that particular server behaviors are required by the client.
+30. **X-Pingback**: Used in XML-RPC and WordPress to specify the URL where pingbacks should be sent.
+31. **X-API-Key**: A custom header used for passing an API key for authentication.
+32. **X-Requested-With**: Commonly used to indicate that the request was made via JavaScript (e.g., Ajax).
+33. **If-Range**: Allows a conditional request based on the ETag or last modification date.
+34. **X-Real-IP**: Used to pass the real IP address of a client connecting through a proxy.
+35. **X-Download-Options**: Used to prevent Internet Explorer from executing downloads automatically.
+36. **X-Powered-By**: Indicates the technology used to build the web application.
+37. **X-Content-Duration**: Used to indicate the duration of media content.
+38. **Accept-Datetime**: Allows a client to specify a date and time for the resource.
+39. **X-Resource-Id**: A custom header indicating the unique identifier for a resource.
+40. **X-Client-Data**: Information about the client sending the request, often used in analytics.
+41. **X-Requested-With**: Identifies requests made with JavaScript frameworks like jQuery.
+42. **X-Sensitive-Data**: Indicates that the request contains sensitive data.
+43. **X-Session-ID**: Used to pass a session identifier for tracking user sessions.
+44. **X-Cache**: Indicates the cache status of the request.
+45. **X-Rate-Limit**: Indicates the rate limit status for API requests.
+46. **X-Frame-Options**: Protects against clickjacking by controlling if a page can be displayed in a frame.
+47. **X-Content-Security-Policy**: Used to control resources the user agent is allowed to load for a given page.
+48. **X-Content-Policy**: Indicates the content security policy for the request.
+49. **X-Trust-Proxy**: Indicates whether the upstream proxy is trusted to forward the client IP.
+50. **X-B3-TraceId**: Used in distributed tracing to track requests across services.

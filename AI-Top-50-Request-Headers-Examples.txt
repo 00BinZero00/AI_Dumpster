@@ -1,0 +1,349 @@
+1. **Accept**
+   - **Purpose**: Specifies the media types that the client is willing to receive from the server.
+   - **Example**: 
+     ```
+     Accept: text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8
+     ```
+
+2. **User-Agent**
+   - **Purpose**: Identifies the client software making the request (browser type, version, and operating system).
+   - **Example**: 
+     ```
+     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+     ```
+
+3. **Host**
+   - **Purpose**: Specifies the domain name and port number of the server.
+   - **Example**: 
+     ```
+     Host: www.example.com
+     ```
+
+4. **Authorization**
+   - **Purpose**: Contains credentials for authenticating the client with the server.
+   - **Example**: 
+     ```
+     Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=  // base64-encoded username:password
+     ```
+
+5. **Content-Type**
+   - **Purpose**: Indicates the media type of the resource being sent to the server.
+   - **Example**: 
+     ```
+     Content-Type: application/json
+     ```
+
+6. **Content-Length**
+   - **Purpose**: Specifies the size of the request body in bytes.
+   - **Example**: 
+     ```
+     Content-Length: 348
+     ```
+
+7. **Accept-Language**
+   - **Purpose**: Indicates the preferred languages for the response content.
+   - **Example**: 
+     ```
+     Accept-Language: en-US,en;q=0.5
+     ```
+
+8. **Cookie**
+   - **Purpose**: Sends stored cookies from the client to the server, which can maintain sessions or track user preferences.
+   - **Example**: 
+     ```
+     Cookie: sessionId=abc123; theme=light
+     ```
+
+9. **Referer**
+   - **Purpose**: Indicates the URL of the webpage that linked to the resource being requested.
+   - **Example**: 
+     ```
+     Referer: https://www.google.com/
+     ```
+
+10. **If-None-Match**
+    - **Purpose**: Used for conditional requests based on the ETag value.
+    - **Example**: 
+      ```
+      If-None-Match: "abc123"
+      ```
+
+11. **Accept-Encoding**
+    - **Purpose**: Specifies the content encodings (like gzip) that the client supports.
+    - **Example**: 
+      ```
+      Accept-Encoding: gzip, deflate, br
+      ```
+
+12. **Connection**
+    - **Purpose**: Indicates whether the connection should be kept alive or closed.
+    - **Example**: 
+      ```
+      Connection: keep-alive
+      ```
+
+13. **Cache-Control**
+    - **Purpose**: Directives for caching mechanisms in both requests and responses.
+    - **Example**: 
+      ```
+      Cache-Control: no-cache
+      ```
+
+14. **DNT (Do Not Track)**
+    - **Purpose**: Indicates the user's tracking preference.
+    - **Example**: 
+      ```
+      DNT: 1
+      ```
+
+15. **Upgrade-Insecure-Requests**
+    - **Purpose**: Indicates that the client prefers an encrypted and authenticated response.
+    - **Example**: 
+      ```
+      Upgrade-Insecure-Requests: 1
+      ```
+
+16. **TE**
+    - **Purpose**: Indicates the transfer encodings that the client is willing to accept.
+    - **Example**: 
+      ```
+      TE: trailers, deflate;q=0.5
+      ```
+
+17. **X-Requested-With**
+    - **Purpose**: Used to identify Ajax requests, often set to "XMLHttpRequest".
+    - **Example**: 
+      ```
+      X-Requested-With: XMLHttpRequest
+      ```
+
+18. **If-Modified-Since**
+    - **Purpose**: Allows conditional requests based on the last modification date.
+    - **Example**: 
+      ```
+      If-Modified-Since: Wed, 21 Oct 2015 07:28:00 GMT
+      ```
+
+19. **Range**
+    - **Purpose**: Requests a specific range of bytes from the resource.
+    - **Example**: 
+      ```
+      Range: bytes=0-499
+      ```
+
+20. **Origin**
+    - **Purpose**: Indicates the origin of the request, used in CORS (Cross-Origin Resource Sharing).
+    - **Example**: 
+      ```
+      Origin: https://www.example.com
+      ```
+
+21. **X-Forwarded-For**
+    - **Purpose**: Identifies the originating IP address of a client connecting through an HTTP proxy.
+    - **Example**: 
+      ```
+      X-Forwarded-For: 203.0.113.195
+      ```
+
+22. **X-Frame-Options**
+    - **Purpose**: Controls whether a browser should be allowed to render a page in a `<frame>`.
+    - **Example**: 
+      ```
+      X-Frame-Options: DENY
+      ```
+
+23. **Content-Encoding**
+    - **Purpose**: Indicates the encoding used on the data, such as gzip.
+    - **Example**: 
+      ```
+      Content-Encoding: gzip
+      ```
+
+24. **Content-Disposition**
+    - **Purpose**: Indicates if the content is expected to be displayed inline or as an attachment.
+    - **Example**: 
+      ```
+      Content-Disposition: attachment; filename="file.pdf"
+      ```
+
+25. **X-Content-Type-Options**
+    - **Purpose**: Prevents browsers from MIME-sniffing a response away from the declared content type.
+    - **Example**: 
+      ```
+      X-Content-Type-Options: nosniff
+      ```
+
+26. **Accept-Charset**
+    - **Purpose**: Specifies the character sets that the client can understand.
+    - **Example**: 
+      ```
+      Accept-Charset: utf-8, ISO-8859-1;q=0.5
+      ```
+
+27. **Expect**
+    - **Purpose**: Indicates that particular server behaviors are required by the client.
+    - **Example**: 
+      ```
+      Expect: 100-continue
+      ```
+
+28. **X-Pingback**
+    - **Purpose**: Used to specify the URL where pingbacks should be sent (often in XML-RPC).
+    - **Example**: 
+      ```
+      X-Pingback: https://www.example.com/xmlrpc.php
+      ```
+
+29. **X-API-Key**
+    - **Purpose**: A custom header used for passing an API key for authentication.
+    - **Example**: 
+      ```
+      X-API-Key: ABC123XYZ
+      ```
+
+30. **X-Real-IP**
+    - **Purpose**: Used to pass the real IP address of a client connecting through a proxy.
+    - **Example**: 
+      ```
+      X-Real-IP: 192.0.2.1
+      ```
+
+31. **X-Content-Duration**
+    - **Purpose**: Used to indicate the duration of media content.
+    - **Example**: 
+      ```
+      X-Content-Duration: 120
+      ```
+
+32. **X-Powered-By**
+    - **Purpose**: Indicates the technology used to build the web application.
+    - **Example**: 
+      ```
+      X-Powered-By: PHP/7.4.3
+      ```
+
+33. **X-Session-ID**
+    - **Purpose**: Used to pass a session identifier for tracking user sessions.
+    - **Example**: 
+      ```
+      X-Session-ID: 1234567890abcdef
+      ```
+
+34. **X-Download-Options**
+    - **Purpose**: Prevents Internet Explorer from executing downloads automatically.
+    - **Example**: 
+      ```
+      X-Download-Options: noopen
+      ```
+
+35. **X-Content-Security-Policy**
+    - **Purpose**: Used to control resources the user agent is allowed to load for a given page.
+    - **Example**: 
+      ```
+      X-Content-Security-Policy: default-src 'self'; script-src 'self' https://apis.example.com
+      ```
+
+36. **X-Rate-Limit**
+    - **Purpose**: Indicates the rate limit status for API requests.
+    - **Example**: 
+      ```
+      X-Rate-Limit: 100
+      ```
+
+37. **X-Request-ID**
+    - **Purpose**: Used to track requests across systems, often for logging.
+    - **Example**: 
+      ```
+      X-Request-ID: 123e4567-e89b-12d3-a456-426614174000
+      ```
+
+38. **X-Requested-With**
+    - **Purpose**: Identifies requests made with JavaScript frameworks like jQuery.
+    - **Example**: 
+      ```
+      X-Requested-With: XMLHttpRequest
+      ```
+
+39. **X-Frame-Options**
+    - **Purpose**: Protects against clickjacking by controlling if a page can be displayed in a frame.
+    - **Example**: 
+      ```
+      X-Frame-Options: SAMEORIGIN
+      ```
+
+40. **X-Forwarded-Proto**
+    - **Purpose**: Indicates the protocol used (HTTP or HTTPS) in the original request.
+    - **Example**: 
+      ```
+      X-Forwarded-Proto: https
+      ```
+
+41. **Accept-Datetime**
+    - **Purpose**: Allows a client to specify a date and time for the resource.
+    - **Example**: 
+      ```
+      Accept-Datetime: Wed, 21 Oct 2015 07:28:00 GMT
+      ```
+
+42. **X-B3-TraceId**
+    - **Purpose**: Used in distributed tracing to track requests across services.
+    - **Example**: 
+      ```
+      X-B3-TraceId: 2e8a7e5f8aeb4c75
+      ```
+
+43. **X-Content-Duration**
+    - **Purpose**: Indicates the duration of media content.
+    - **Example**: 
+      ```
+      X-Content-Duration: 3600
+      ```
+
+44. **X-Client-Data**
+    - **Purpose**: Information about the client sending the request, often used in analytics.
+    - **Example**: 
+      ```
+      X-Client-Data: some-client-data
+      ```
+
+45. **X-Cache**
+    - **Purpose**: Indicates the cache status of the request.
+    - **Example**: 
+      ```
+      X-Cache: HIT
+      ```
+
+46. **X-Trust-Proxy**
+    - **Purpose**: Indicates whether the upstream proxy is trusted to forward the client IP.
+    - **Example**: 
+      ```
+      X-Trust-Proxy: true
+      ```
+
+47. **X-Content-Type-Options**
+    - **Purpose**: Used to prevent browsers from MIME-sniffing a response away from the declared content type.
+    - **Example**: 
+      ```
+      X-Content-Type-Options: nosniff
+      ```
+
+48. **Content-Transfer-Encoding**
+    - **Purpose**: Specifies the encoding used for the content.
+    - **Example**: 
+      ```
+      Content-Transfer-Encoding: binary
+      ```
+
+49. **X-Frame-Options**
+    - **Purpose**: Protects against clickjacking by controlling if a page can be displayed in a frame.
+    - **Example**: 
+      ```
+      X-Frame-Options: DENY
+      ```
+
+50. **X-Content-Security-Policy**
+    - **Purpose**: Used to control resources the user agent is allowed to load for a given page.
+    - **Example**: 
+      ```
+      X-Content-Security-Policy: default-src 'self'; script-src 'self' https://apis.example.com
+      ```

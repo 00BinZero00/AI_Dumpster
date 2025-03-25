@@ -1,0 +1,50 @@
+1. `ls` - List directory contents.
+2. `cd` - Change the current directory.
+3. `pwd` - Print working directory.
+4. `mkdir` - Create a new directory.
+5. `rmdir` - Remove an empty directory.
+6. `rm` - Remove files or directories.
+7. `cp` - Copy files or directories.
+8. `mv` - Move or rename files or directories.
+9. `cat` - Concatenate and display files.
+10. `echo` - Display a line of text.
+11. `man` - Display the manual for a command.
+12. `touch` - Create an empty file or update the timestamp of a file.
+13. `chmod` - Change file permissions.
+14. `chown` - Change file owner and group.
+15. `ps` - Display currently running processes.
+16. `top` - Display running processes in real-time.
+17. `kill` - Terminate a process by PID.
+18. `grep` - Search for text in files.
+19. `find` - Search for files in a directory hierarchy.
+20. `df` - Report file system disk space usage.
+21. `du` - Estimate file space usage.
+22. `tar` - Archive files.
+23. `zip` - Package and compress files.
+24. `unzip` - Extract compressed files.
+25. `scp` - Secure copy files between hosts.
+26. `wget` - Download files from the web.
+27. `curl` - Transfer data to or from a server.
+28. `nano` - Text editor for command line.
+29. `vi` - Advanced text editor.
+30. `history` - Show command history.
+31. `alias` - Create shortcuts for commands.
+32. `sudo` - Execute a command as a superuser.
+33. `whoami` - Display the current user.
+34. `hostname` - Show or set the system's hostname.
+35. `ifconfig` - Configure network interfaces (deprecated, use `ip`).
+36. `ip` - Show/manipulate routing, devices, policy routing, and tunnels.
+37. `ping` - Test network connectivity.
+38. `traceroute` - Trace the route packets take to a network host.
+39. `ssh` - Secure shell for remote access.
+40. `exit` - Exit the terminal session.
+41. `clear` - Clear the terminal screen.
+42. `uname` - Show system information.
+43. `df` - Display disk space usage.
+44. `free` - Display memory usage.
+45. `uptime` - Show how long the system has been running.
+46. `who` - Show who is logged in.
+47. `last` - Show last logged in users.
+48. `shutdown` - Bring the system down.
+49. `reboot` - Reboot the system.
+50. `service` - Start, stop, or manage services.

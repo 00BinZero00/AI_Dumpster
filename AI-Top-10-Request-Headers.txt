@@ -1,0 +1,40 @@
+1. **Accept**:
+   - **Purpose**: Specifies the media types that the client is willing to receive from the server.
+   - **Example**: `Accept: text/html, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8`
+
+2. **User-Agent**:
+   - **Purpose**: Identifies the client software making the request, including the browser type and version, operating system, and device information.
+   - **Example**: `User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36`
+
+3. **Host**:
+   - **Purpose**: Specifies the domain name of the server and the TCP port number on which the server is listening.
+   - **Example**: `Host: www.example.com`
+
+4. **Authorization**:
+   - **Purpose**: Contains credentials for authenticating the client with the server, often used in APIs and secure transactions.
+   - **Example**: `Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=` (base64-encoded username and password)
+
+5. **Content-Type**:
+   - **Purpose**: Indicates the media type of the resource being sent to the server, typically used in POST or PUT requests.
+   - **Example**: `Content-Type: application/json`
+
+6. **Content-Length**:
+   - **Purpose**: Specifies the size of the request body in bytes, allowing the server to understand how much data to expect.
+   - **Example**: `Content-Length: 348`
+
+7. **Accept-Language**:
+   - **Purpose**: Indicates the preferred languages for the response content, allowing the server to tailor responses based on user language preferences.
+   - **Example**: `Accept-Language: en-US,en;q=0.5`
+
+8. **Cookie**:
+   - **Purpose**: Sends stored cookies from the client to the server, which can be used to maintain sessions or track user preferences.
+   - **Example**: `Cookie: sessionId=abc123; theme=light`
+
+9. **Referer**:
+   - **Purpose**: Indicates the URL of the webpage that linked to the resource being requested, allowing the server to track where traffic is coming from.
+   - **Example**: `Referer: https://www.google.com/`
+
+10. **If-None-Match**:
+    - **Purpose**: Used for conditional requests; allows the client to make requests based on the ETag (entity tag) value, optimizing caching.
+    - **Example**: `If-None-Match: "abc123"`
+

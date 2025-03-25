@@ -1,0 +1,32 @@
+Here are the top 10 free email providers along with links to their registration pages:
+
+1. **Gmail**
+   - [Register for Gmail](https://accounts.google.com/signup)
+
+2. **Outlook.com**
+   - [Register for Outlook.com](https://outlook.live.com/owa/)
+
+3. **Yahoo Mail**
+   - [Register for Yahoo Mail](https://login.yahoo.com/account/create)
+
+4. **ProtonMail**
+   - [Register for ProtonMail](https://protonmail.com/signup)
+
+5. **Zoho Mail**
+   - [Register for Zoho Mail](https://www.zoho.com/mail/zohomail-pricing.html)
+
+6. **GMX Mail**
+   - [Register for GMX Mail](https://www.gmx.com/mail/signup/)
+
+7. **iCloud Mail**
+   - [Register for iCloud Mail](https://appleid.apple.com/account)
+
+8. **Mail.com**
+   - [Register for Mail.com](https://www.mail.com/int/signup/)
+
+9. **Tutanota**
+   - [Register for Tutanota](https://tutanota.com/signup)
+
+10. **Yandex.Mail**
+    - [Register for Yandex.Mail](https://passport.yandex.com/registration)
+

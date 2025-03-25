@@ -1,0 +1,200 @@
+1. `ls` - List directory contents.
+2. `cd` - Change the current directory.
+3. `pwd` - Print working directory.
+4. `mkdir` - Create a new directory.
+5. `rmdir` - Remove an empty directory.
+6. `rm` - Remove files or directories.
+7. `cp` - Copy files or directories.
+8. `mv` - Move or rename files or directories.
+9. `cat` - Concatenate and display files.
+10. `echo` - Display a line of text.
+11. `man` - Display the manual for a command.
+12. `touch` - Create an empty file or update the timestamp of a file.
+13. `chmod` - Change file permissions.
+14. `chown` - Change file owner and group.
+15. `ps` - Display currently running processes.
+16. `top` - Display running processes in real-time.
+17. `htop` - Interactive process viewer (requires installation).
+18. `kill` - Terminate a process by PID.
+19. `pkill` - Kill processes by name.
+20. `grep` - Search for text in files.
+21. `find` - Search for files in a directory hierarchy.
+22. `df` - Report file system disk space usage.
+23. `du` - Estimate file space usage.
+24. `tar` - Archive files.
+25. `zip` - Package and compress files.
+26. `unzip` - Extract compressed files.
+27. `gzip` - Compress files.
+28. `gunzip` - Decompress files.
+29. `scp` - Securely copy files between hosts.
+30. `sftp` - Secure file transfer program.
+31. `wget` - Download files from the web.
+32. `curl` - Transfer data to or from a server.
+33. `nano` - Simple text editor for command line.
+34. `vi` - Advanced text editor.
+35. `vim` - Improved version of `vi`.
+36. `history` - Show command history.
+37. `alias` - Create shortcuts for commands.
+38. `unalias` - Remove aliases.
+39. `sudo` - Execute a command as a superuser.
+40. `su` - Switch user.
+41. `whoami` - Display the current user.
+42. `hostname` - Show or set the system's hostname.
+43. `ifconfig` - Configure network interfaces (deprecated, use `ip`).
+44. `ip` - Show/manipulate routing, devices, policy routing, and tunnels.
+45. `ping` - Test network connectivity.
+46. `traceroute` - Trace the route packets take to a network host.
+47. `ssh` - Secure shell for remote access.
+48. `scp` - Secure copy files between hosts.
+49. `ftp` - File Transfer Protocol client.
+50. `exit` - Exit the terminal session.
+51. `clear` - Clear the terminal screen.
+52. `uname` - Show system information.
+53. `free` - Display memory usage.
+54. `uptime` - Show how long the system has been running.
+55. `who` - Show who is logged in.
+56. `last` - Show last logged in users.
+57. `shutdown` - Bring the system down.
+58. `reboot` - Reboot the system.
+59. `service` - Manage services.
+60. `systemctl` - Control the systemd system and service manager.
+61. `journalctl` - Query the systemd journal.
+62. `crontab` - Schedule tasks.
+63. `df` - Display disk space usage.
+64. `mount` - Mount a file system.
+65. `umount` - Unmount a file system.
+66. `chmod` - Change file access permissions.
+67. `chgrp` - Change group ownership of files.
+68. `ln` - Create symbolic links.
+69. `tar -xvf` - Extract files from a tarball.
+70. `tar -cvf` - Create a tarball.
+71. `rsync` - Synchronize files/directories between locations.
+72. `basename` - Strip directory and suffix from filenames.
+73. `dirname` - Strip the last component from the file name.
+74. `cut` - Remove sections from each line of files.
+75. `sort` - Sort lines of text files.
+76. `uniq` - Report or omit repeated lines.
+77. `wc` - Count lines, words, and characters in files.
+78. `file` - Determine the file type.
+79. `stat` - Display file or file system status.
+80. `diff` - Compare files line by line.
+81. `patch` - Apply changes to files.
+82. `sed` - Stream editor for filtering and transforming text.
+83. `awk` - Pattern scanning and processing language.
+84. `xargs` - Build and execute command lines from standard input.
+85. `tee` - Read from standard input and write to standard output and files.
+86. `locate` - Find files by name.
+87. `updatedb` - Update the database for `locate`.
+88. `basename` - Strip directory and suffix from filenames.
+89. `dirname` - Strip the last component from the file name.
+90. `chattr` - Change file attributes on a Linux file system.
+91. `setfacl` - Set file access control lists.
+92. `getfacl` - Get file access control lists.
+93. `mount` - Mount a filesystem.
+94. `umount` - Unmount a filesystem.
+95. `history` - Show command history.
+96. `ssh-keygen` - Generate SSH keys for secure access.
+97. `df -h` - Display disk space usage in human-readable format.
+98. `du -h` - Estimate file space usage in human-readable format.
+99. `tar -czvf` - Create a compressed tarball.
+100. `tar -xzvf` - Extract a compressed tarball.
+101. `ping -c` - Send a specific number of ping requests.
+102. `tr` - Translate or delete characters.
+103. `sh` - Execute a shell script.
+104. `bash` - GNU Bourne-Again SHell.
+105. `chmod +x` - Make a file executable.
+106. `basename` - Get the filename from a path.
+107. `echo $PATH` - Display the system PATH variable.
+108. `env` - List environment variables.
+109. `export` - Set environment variables.
+110. `set` - Set shell options.
+111. `unset` - Remove variable or function names.
+112. `jobs` - List active jobs.
+113. `bg` - Resume a suspended job in the background.
+114. `fg` - Bring a job to the foreground.
+115. `wait` - Wait for a process to complete.
+116. `nohup` - Run a command immune to hangups.
+117. `screen` - Terminal multiplexer.
+118. `tmux` - Terminal multiplexer (alternative to screen).
+119. `wget --mirror` - Download entire websites.
+120. `curl -O` - Download a file with curl.
+121. `curl -I` - Fetch HTTP headers.
+122. `curl -d` - Send data with POST requests.
+123. `ssh-copy-id` - Install your public key on a remote server.
+124. `hostnamectl` - Control the system hostname.
+125. `lsof` - List open files.
+126. `df -i` - Display inode information.
+127. `du -sh` - Display total size of a directory.
+128. `gzip -d` - Decompress files using gzip.
+129. `bzip2` - Compress files using bzip2.
+130. `bunzip2` - Decompress files using bzip2.
+131. `zcat` - View compressed files.
+132. `zless` - View compressed files with less.
+133. `export -p` - Display all exported variables.
+134. `alias ll='ls -la'` - Create an alias for a command.
+135. `type` - Display the kind of command.
+136. `which` - Locate a command.
+137. `whereis` - Locate the binary, source, and manual page files for a command.
+138. `echo $?` - Display the exit status of the last command.
+139. `read` - Read a line from standard input.
+140. `printf` - Format and print data.
+141. `seq` - Print a sequence of numbers.
+142. `factor` - Print the prime factors of each number.
+143. `bc` - An arbitrary precision calculator language.
+144. `expr` - Evaluate expressions.
+145. `sort -r` - Sort in reverse order.
+146. `sort -n` - Sort numerically.
+147. `sort -u` - Sort and remove duplicates.
+148. `tac` - Concatenate and display files in reverse.
+149. `split` - Split a file into pieces.
+150. `join` - Join lines of two files on a common field.
+151. `tee -a` - Append to a file while displaying output.
+152. `nl` - Number lines in a file.
+153. `wc -l` - Count lines in a file.
+154. `wc -w` - Count words in a file.
+155. `wc -c` - Count bytes in a file.
+156. `shuf` - Generate random permutations.
+157. `rev` - Reverse lines of a file.
+158. `diff -u` - Display unified diff format.
+159. `patch -p` - Apply a patch to a file.
+160. `sed 's/foo/bar/'` - Replace 'foo' with 'bar' in a file.
+161. `awk '{print $1}'` - Print the first column of a file.
+162. `awk -F':' '{print $1}'` - Print the first field with ':' as delimiter.
+163. `tr 'a-z' 'A-Z'` - Convert lowercase to uppercase.
+164. `cut -d':' -f1` - Cut a field from a line using ':' as delimiter.
+165. `sed -n '1,10p'` - Print the first 10 lines of a file.
+166. `tail -n 50` - Display the last 50 lines of a file.
+167. `head -n 10` - Display the first 10 lines of a file.
+168. `find /path -name "*.txt"` - Find text files in a directory.
+169. `find . -type f -size +1M` - Find files larger than 1MB.
+170. `ps aux` - Display detailed process information.
+171. `pstree` - Show processes in a tree format.
+172. `killall` - Kill processes by name.
+173. `pkill -f` - Kill processes by matching the full command line.
+174. `nice` - Run a command with modified scheduling priority.
+175. `renice` - Alter the priority of running processes.
+176. `bg %job` - Place a job in the background.
+177. `fg %job` - Bring a job to the foreground.
+178. `jobs -l` - List jobs with their PIDs.
+179. `disown` - Remove jobs from the shell's job table.
+180. `uname -a` - Show all system information.
+181. `lsblk` - List block devices.
+182. `blkid` - Display block device attributes.
+183. `fdisk -l` - List disk partitions.
+184. `df -hT` - Display disk usage with filesystem type.
+185. `mount -a` - Mount all filesystems mentioned in fstab.
+186. `umount -l` - Lazy unmount a filesystem.
+187. `fsck` - Check and repair a Linux file system.
+188. `mkfs.ext4` - Create an ext4 filesystem.
+189. `resize2fs` - Resize an ext2/ext3/ext4 filesystem.
+190. `dd` - Convert and copy a file.
+191. `pv` - Monitor the progress of data through a pipeline.
+192. `watch` - Execute a command periodically.
+193. `nohup command &` - Run a command that ignores hangups.
+194. `at` - Schedule a command to run at a particular time.
+195. `batch` - Schedule commands to run when system load permits.
+196. `systemctl start service` - Start a service.
+197. `systemctl stop service` - Stop a service.
+198. `systemctl restart service` - Restart a service.
+199. `systemctl status service` - Check the status of a service.
+200. `systemctl enable service` - Enable a service to start on boot.

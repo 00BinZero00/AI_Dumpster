@@ -1,0 +1,65 @@
+### 1. WEP (Wired Equivalent Privacy)
+- **Overview**: WEP was one of the first security protocols for wireless networks, introduced in the late 1990s.
+- **How It Works**: WEP uses a shared static key for encryption, typically employing the RC4 stream cipher.
+  
+- **Strengths**: 
+  - Easy to set up.
+  - Provides a basic level of encryption.
+
+- **Vulnerabilities**:
+  - **Weak Encryption**: WEP’s RC4 algorithm can be broken due to known vulnerabilities.
+  - **Static Keys**: The same encryption key is used for all transmissions, making it easier for attackers to capture enough packets to decrypt the key.
+  - **Packet Injection**: Attackers can inject malicious packets into the network, exploiting the lack of integrity checks.
+  - **Poor Key Management**: Changing the WEP key is cumbersome, leading to prolonged use of the same key.
+
+### 2. WPA (Wi-Fi Protected Access)
+- **Overview**: WPA was created to address the vulnerabilities of WEP and introduced in 2003.
+- **How It Works**: WPA uses TKIP (Temporal Key Integrity Protocol), which generates a unique key for each packet.
+
+- **Strengths**: 
+  - Enhanced security features over WEP.
+  - Dynamic key management improves security.
+
+- **Vulnerabilities**:
+  - **TKIP Vulnerabilities**: TKIP has known weaknesses that can potentially be exploited, allowing attackers to crack the keys.
+  - **Weak Passwords**: WPA still relies on user-defined passwords, which can be weak and susceptible to brute-force attacks.
+  - **Dictionary Attacks**: WPA-PSK (Pre-Shared Key) can be vulnerable to dictionary attacks where attackers can guess passwords through trial and error.
+
+### 3. WPA2
+- **Overview**: WPA2 became the standard in 2004, offering stronger security measures than WPA.
+- **How It Works**: WPA2 employs AES (Advanced Encryption Standard) for encryption, providing a high level of security.
+
+- **Strengths**: 
+  - Strong encryption through AES.
+  - Support for both Personal (PSK) and Enterprise (EAP) modes.
+
+- **Vulnerabilities**:
+  - **Weak PSK**: Similar to WPA, if a weak password is used, it can be susceptible to brute-force and dictionary attacks.
+  - **KRACK (Key Reinstallation Attack)**: A vulnerability discovered in 2017 that exploits the WPA2 protocol itself, allowing an attacker to decrypt and manipulate traffic.
+  - **EAP Vulnerabilities**: In Enterprise mode, if improperly configured, EAP can be susceptible to attacks such as man-in-the-middle.
+
+### 4. WPA3
+- **Overview**: WPA3 is the latest standard, introduced in 2018, designed to enhance security even further.
+- **How It Works**: WPA3 uses Simultaneous Authentication of Equals (SAE) for Personal mode, which provides better protection against brute-force attacks.
+
+- **Strengths**: 
+  - Enhanced protection against offline dictionary attacks.
+  - Opportunistic Wireless Encryption (OWE) provides encryption for open networks.
+
+- **Vulnerabilities**:
+  - **Compatibility Issues**: Older devices may not support WPA3, leading to potential fallback to less secure protocols.
+  - **Implementation Bugs**: As with any new technology, there can be vulnerabilities in the implementation of the protocol itself.
+  - **Incomplete Security**: While WPA3 addresses many vulnerabilities, it’s still susceptible to social engineering attacks and weak passwords.
+
+### 5. Open Network
+- **Overview**: An open network has no encryption or password protection, allowing anyone to connect.
+- **How It Works**: Data sent over an open network is transmitted in plaintext, meaning it can be intercepted easily.
+
+- **Strengths**: 
+  - Easy access and no password required.
+
+- **Vulnerabilities**:
+  - **Eavesdropping**: Anyone within range can intercept and read unencrypted data.
+  - **Man-in-the-Middle Attacks**: Attackers can position themselves between users and the internet, capturing sensitive information.
+  - **Malicious Hotspots**: Attackers can set up rogue access points that mimic legitimate ones, tricking users into connecting and exposing their data.
+
